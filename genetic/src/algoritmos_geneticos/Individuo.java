@@ -1,12 +1,11 @@
-package AlgoritmosGeneticosSimples;
+package algoritmos_geneticos;
 
 public class Individuo {
 
     static int largoDeGenesPorDefecto = 64;
-    private  byte[] genes = new byte[largoDeGenesPorDefecto];
+    private byte[] genes = new byte[largoDeGenesPorDefecto];
     // Cache
     private int fitness = 0;
-    
 
     // crea un Individuo al azar
     public void generarIndividuo() {
@@ -15,7 +14,8 @@ public class Individuo {
             genes[i] = gen;
         }
     }
-    
+
+
     // Utilice esto para cambiar el largo de los genes
     public static void establecerLargoDeGenesPorDefecto(int largo) {
         largoDeGenesPorDefecto = largo;
@@ -23,7 +23,7 @@ public class Individuo {
     
     public byte obtenerGen(int index) {
         return genes[index];
-        }
+    }
 
     public void establecerGen(int index, byte valor) {
         genes[index] = valor;
@@ -40,7 +40,7 @@ public class Individuo {
         }
         return fitness;
     }
-   
+
     @Override
     public String toString() {
         String stringDeGenes = "";

@@ -1,4 +1,4 @@
-package AlgoritmosGeneticosSimples;
+package algoritmos_geneticos;
 
 public class Algoritmo {
 
