@@ -1,4 +1,4 @@
-package algoritmos_geneticos;
+package  AlgoritmosGeneticosSimples;
 /*
 Instituto Tecnologico de Costa Rica
     Analisis de  Algoritmos
@@ -27,7 +27,7 @@ public class AG {
         Actividad.ponerHorasDiaLaboral(24);// Rango de horas de las actividades
         
         //Imprime todas las actividades que se generaron
-        LinkedList<Actividad> listaActividades = generarListaActividades(17);
+        LinkedList<Actividad> listaActividades = generarListaActividades(14);
        
         System.out.println("Actividades");
         System.out.println("------------------------------\n");

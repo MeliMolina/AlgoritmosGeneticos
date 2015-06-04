@@ -1,5 +1,5 @@
 
-package algoritmos_geneticos;
+package AlgoritmosGeneticosSimples;
 
 import java.lang.Math;
 import static java.lang.Math.abs;

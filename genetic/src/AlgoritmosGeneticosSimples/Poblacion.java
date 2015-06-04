@@ -1,4 +1,4 @@
-package algoritmos_geneticos;
+package  AlgoritmosGeneticosSimples;
 
 import java.util.LinkedList;
 
